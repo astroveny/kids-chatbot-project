@@ -1,0 +1,4 @@
+#! /bin/bash
+
+  # Create the environment variable file using the local variable
+  echo -e "REACT_APP_OPENAI_API_KEY=$OPENAI_API_KEY" > my-chatbot-app/.env
