@@ -32,7 +32,7 @@ function App() {
       try {
         const response = await axios.post('https://api.openai.com/v1/chat/completions', 
         {
-          model: "gpt-4o-mini", // Use "gpt-3.5-turbo" if you have access to GPT-4
+          model: "gpt-4o-mini", // Use "gpt-4o" if you have access 
           messages: [
             { role: "system", content: "You are now Harry Potter, respond as if you are him." },
             { role: "user", content: input }
